@@ -1,0 +1,7 @@
+.hero-article{
+  background-image: url('/img/heroimg/heropic-mob.png');
+  background-repeat: no-repeat;
+  background-position: top 150px left 0;
+  background-size: cover;
+  height: auto;
+}
