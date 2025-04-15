@@ -3,8 +3,11 @@
   linear-gradient(225deg, rgba(132, 132, 132, 0.01) 0%, rgba(6, 6, 6, 0.5) 46.98%, rgba(6, 6, 6, 0.75) 69.93%, #060606 92.89%),
   url('/img/heroimg/heropic-mob.png');
   background-repeat: no-repeat;
-  background-position: top 150px center;
+  background-position: top 180px center;
   background-size: contain;  
+}
+.hero-container-main{
+  padding-top:72px;
 }
 .hero-title{
   font-family: "Orbitron", sans-serif;
@@ -15,7 +18,7 @@ color:rgba(241, 241, 241, 0.5);
 width: 210px;
 height: 98px;
 text-align:center;
-margin:0 auto 28px;
+margin:0px auto 28px;
 
 }
 .hero-span{
@@ -175,7 +178,7 @@ width:250px;
      }
 }
 /* Training Arenas */
-.header-container{
+.title-container{
   background-color: #f1f1f1;
   background-image:url("/img/traning/line-mob.png");
   background-repeat: no-repeat;
@@ -228,7 +231,7 @@ color: #f1f1f1;
 padding: 0 16px;
 }
 @media screen and (min-width: 1439px) {
-  .header-container{
+  .title-container{
     background-color: #f1f1f1;
     background-image:url("/img/traning/line-desk.png");
     background-repeat: no-repeat;
@@ -523,4 +526,178 @@ height: 206px;
   
   font-size: 18px;
 }
+}
+/* Recovery & Longevity */
+.recovery-section{
+  background-image:url("/img/power/line-mob.png");
+  background-repeat: no-repeat;
+  background-position: top 120px right;
+  background-size: 359px;  
+}
+.recovery-title{
+  margin-bottom:32px;
+}
+.recovery-text{
+font-family: "Orbitron", sans-serif;
+font-weight: 400;
+font-size: 22px;
+text-align: center;
+color: #f1f1f1;
+}
+.recovery-img{
+  margin-top:24px;
+  margin-bottom:16px;
+}
+.recovery-caption{
+  font-family: "Orbitron", sans-serif;
+font-weight: 400;
+font-size: 26px;
+color: #d7ff35;
+margin-bottom:16px;
+}
+@media screen and (min-width: 1439px) {
+  .recovery-section{ 
+    background-image:url("/img/power/line-desk.png");
+    background-repeat: no-repeat;
+    background-position: top 110px right;
+    background-size: 708px;  
+  }
+  .recovery-title{
+    font-size: 40px;
+  }
+  .recovery-text{
+    text-align: start;
+  }
+  .recovery-picture-container{
+    display:flex;
+    gap:80px;
+    justify-content:center;
+  }
+  .recovery-img{
+    width: 348px;
+height: 229px;
+  }
+  .recovery-caption{
+    width:343px;
+  }
+}
+/* Real Athlete Stories */
+.stories-section{
+  background-color: #f1f1f1;
+  background-image:url("/img/traning/line-mob.png");
+  background-repeat: no-repeat;
+  background-position: top 118px right;
+  background-size: 359px; 
+}
+.stories-title{
+  font-family: "Orbitron", sans-serif;
+font-weight: 500;
+font-size: 32px;
+letter-spacing: -0.02em;
+color: #010101;
+  margin-bottom:32px;
+}
+.stories-container{
+  display:flex;
+  flex-direction:column;
+  gap:16px;
+}
+.stories-container-item{
+  border: 0px solid #d7ff35;
+border-radius: 8px;
+padding: 32px;
+width: 343px;
+height: 238px;
+background: #010101;
+}
+.stories-img{
+  width:33px;
+  height:26px;
+  margin-bottom:14px;
+}
+.stories-text{
+  font-family: "Tomorrow", sans-serif;
+font-weight: 300;
+font-size: 20px;
+color: #f1f1f1;
+margin-bottom:8px;
+}
+.stories-author{
+  font-family: "Tomorrow", sans-serif;
+font-weight: 500;
+font-size: 18px;
+text-align: right;
+color: #f1f1f1;
+}
+@media screen and (min-width: 1439px) {
+  .stories-section{
+    background-color: #f1f1f1;
+    background-image:url("/img/traning/line-desk.png");
+    background-repeat: no-repeat;
+    background-position: top 110px right;
+    background-size: 708px; 
+  }
+  .stories-title{
+  font-size: 40px;
+  margin-bottom:48px;
+  }
+  .stories-container{
+    display:flex;
+    flex-direction:row;
+    gap:25px;
+  }
+  .stories-container-item{
+  padding: 32px;
+  width: 410px;
+  height: 214px;
+  }
+}
+/* Join the Movement */
+.movement-section{
+  background-image:url("/img/power/line-mob.png");
+  background-repeat: no-repeat;
+  background-position: top 80px right;
+  background-size: 359px;  
+}
+.movement-title{
+  margin-bottom:32px;
+}
+.movement-text{
+  font-family: "Orbitron", sans-serif;
+font-weight: 400;
+font-size: 24px;
+text-align: center;
+background: linear-gradient(180deg, #fdfdfd 0%, #d7ff35 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+width:280px;
+margin:0 auto 32px;
+}
+.contact-information{
+  font-family: "Tomorrow", sans-serif;
+font-weight: 300;
+font-size: 24px;
+text-align: center;
+color: #f1f1f1;
+}
+.link-mail{
+  text-decoration: underline;
+}
+@media screen and (min-width: 1439px) {
+  .movement-section{
+    background-image:url("/img/power/line-desk.png");
+    background-repeat: no-repeat;
+    background-position: top 110px right;
+    background-size: 708px;  
+  }
+  .movement-title{
+    font-size: 40px;
+    margin-bottom:80px;
+  }
+  .movement-text{
+  font-size: 32px;
+  width:896px;
+  margin:0 auto 40px;
+  }
 }
