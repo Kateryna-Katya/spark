@@ -14,24 +14,89 @@
     href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Tomorrow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
     rel="stylesheet">
   <title>Spark</title>
-  <script type="module" crossorigin src="/spark/assets/main-B5Qt9EMX.js"></script>
-  <link rel="stylesheet" crossorigin href="/spark/assets/styles-DfjQfYlF.css">
+  <script type="module" crossorigin src="/spark/assets/main-Em9OSjud.js"></script>
+  <link rel="stylesheet" crossorigin href="/spark/assets/styles-CH__smQI.css">
 </head>
 
 <body>
   <header class="header">
-  <div class="container">
-    <nav class="nav">
-
+  <div class="container header-container">
+    <nav class="nav ">
+      <button type="button" class="menu-button" aria-label="button for open menu">
+        <svg class="header-svg" style="background-color:transparent; border-radius: 4px;" width="24" height="24">
+          <use href="/spark/assets/sprite-I-gxhsKm.svg#icon-burger-menu"></use>
+        </svg>
+      </button>
+      <ul class="navigation-list">
+        <li class="navigation-item">
+          <a class="links" href="#Welcome">Welcome to Spark</a>
+        </li>
+        <li class="navigation-item">
+          <a class="links" href="#Power">The Power Play System</a>
+        </li>
+        <li class="navigation-item">
+          <a class="links" href="#Arenas">Training Arenas</a>
+        </li>
+        <li class="navigation-item">
+          <a class="links" href="#Equipment">Cutting-Edge Equipment</a>
+        </li>
+        <li class="navigation-item">
+          <a class="links" href="#Champion">The Champion’s Edge</a>
+        </li>
+        <li class="navigation-item">
+          <a class="links" href="#Fuel">Fuel for Performance</a>
+        </li>
+        <li class="navigation-item">
+          <a class="links" href="#Recovery">Recovery & Longevity</a>
+        </li>
+        <li class="navigation-item">
+          <a class="links" href="#Stories">Real Athlete Stories</a>
+        </li>
+        <li class="navigation-item">
+          <a class="links" href="#Join">Join the Movement</a>
+        </li>
+      </ul>
     </nav>
   </div>
 </header>
+<!-- Mobile menu -->
+<div id="modalWindow" class="modal">
+  <button class="modal-close-button" aria-label="close button">
+    <svg class="modal-svg" width="24" height="24">
+      <use href="/spark/assets/sprite-I-gxhsKm.svg#icon-cross"></use>
+    </svg>
+  </button>
+  <ul class="menu-list">
+    <li><a class="menu-list-item active" href="#Welcome">Welcome to Spark</a></li>
+    <li><a class="menu-list-item" href="#Power">The Power Play System</a></li>
+    <li>
+      <a class="menu-list-item" href="#Arenas">Training Arenas</a>
+    </li>
+    <li><a class="menu-list-item" href="#Equipment">Cutting-Edge Equipment</a></li>
+    <li><a class="menu-list-item" href="#Champion">The Champion’s Edge</a></li>
+    <li>
+      <a class="menu-list-item" href="#Fuel">Fuel for Performance</a>
+    </li>
+    <li><a class="menu-list-item" href="#Recovery">Recovery & Longevity</a></li>
+    <li><a class="menu-list-item" href="#Stories">Real Athlete Stories</a></li>
+    <li><a class="menu-list-item" href="#Join">Join the Movement</a></li>
+    <li>
+      <a class="menu-list-item list-condition" href="Privacy%20Policy.html">Privacy Policy</a>
+    </li>
+    <li>
+      <a class="menu-list-item list-condition" href="Terms & Conditions.html">Terms & Conditions</a>
+    </li>
+    <li>
+      <a class="menu-list-item list-condition" href="Cookies Policy.html">Cookies Policy</a>
+    </li>
+  </ul>
+</div>
 
   <main>
 
     <!-- hero -->
- <article class="hero-article">
-  <div class="container">
+ <article class="hero-article" id="Welcome">
+  <div class="container hero-container-main">
   <h1 class="hero-title">Welcome to <span class="hero-span">Spark</span></h1>
   <div class="hero-container">
 <p>More than training.</p>
@@ -42,7 +107,7 @@
 </div>
  </article>
  <!-- The Power Play System -->
- <section class="power-section ">
+ <section class="power-section" id="Power">
     <div class="container">
       <h2 class="power-title">The Power Play System</h2>
       <div class="cards-container">
@@ -77,8 +142,8 @@
   </div>
   </section>
   <!-- Training Arenas -->
-  <section class="training-section">
-    <div class="header-container">      
+  <section class="training-section" id="Arenas">
+    <div class="title-container">      
     </div>
     <div class="container arenas-container">   
         <h2 class="training-title">Training Arenas</h2> 
@@ -86,7 +151,7 @@
           <li class="training-item">
             <figure>
                <img class="training-img" src="/spark/assets/sprint-CUEvoMsd.png"
-               srcset="/spark/assets/sprint-CUEvoMsd.png, /spark/assets/sprint@2x-CH-V3MKX.png" alt="Storm Sprint Zone" loading="lazy"/>
+               srcset="/spark/assets/sprint-CUEvoMsd.png 1x, /spark/assets/sprint@2x-CH-V3MKX.png 2x" alt="Storm Sprint Zone" loading="lazy"/>
                <figcaption class="training-caption">Storm Sprint Zone</figcaption>
               </figure>
               <p class="training-text">Push your speed and reaction time with professional sprint drills.</p>
@@ -94,7 +159,7 @@
           <li class="training-item">
             <figure>
               <img class="training-img" src="/spark/assets/liffts-wN2R1_Vf.png"
-              srcset="/spark/assets/liffts-wN2R1_Vf.png, /spark/assets/liffts@2x-B5h5GJ69.png" alt="Iron Forge" loading="lazy">
+              srcset="/spark/assets/liffts-wN2R1_Vf.png 1x, /spark/assets/liffts@2x-B5h5GJ69.png 2x" alt="Iron Forge" loading="lazy">
               <figcaption class="training-caption">Iron Forge</figcaption>
              </figure>
              <p class="training-text">Master Olympic lifts and resistance training to build unstoppable strength.</p>
@@ -102,7 +167,7 @@
           <li class="training-item">
             <figure>
               <img class="training-img" src="/spark/assets/endurance-HL6B0Jsi.png"
-              srcset="/spark/assets/endurance-HL6B0Jsi.png, /spark/assets/endurance@2x-B2tKKOiw.png" alt="Endurance Pit" loading="lazy">
+              srcset="/spark/assets/endurance-HL6B0Jsi.png 1x, /spark/assets/endurance@2x-B2tKKOiw.png 2x" alt="Endurance Pit" loading="lazy">
               <figcaption class="training-caption">Endurance Pit</figcaption>
              </figure>
              <p class="training-text">HIIT circuits, altitude training, and stamina-based conditioning.</p>
@@ -110,7 +175,7 @@
           <li class="training-item">
             <figure>
               <img class="training-img" src="/spark/assets/lab-n6eAWPCg.png"
-              srcset="/spark/assets/lab-n6eAWPCg.png, /spark/assets/lab@2x-Dj65hgL5.png" alt="Neuro-Performance Lab" loading="lazy">
+              srcset="/spark/assets/lab-n6eAWPCg.png 1x, /spark/assets/lab@2x-Dj65hgL5.png 2x" alt="Neuro-Performance Lab" loading="lazy">
               <figcaption class="training-caption">Neuro-Performance Lab</figcaption>
              </figure>
              <p class="training-text">Cognitive drills, VR simulations, and focus-enhancing exercises.</p>
@@ -119,14 +184,14 @@
     </div>
     </section>
     <!-- Cutting-Edge Equipment -->
-    <section class="equipment-section ">
+    <section class="equipment-section" id="Equipment">
       <div class="cutting-edge-container">      
       </div>
       <div class="container">
         <h2 class="equipment-title">Cutting-Edge Equipment</h2>
         <div class="equipment-container">
           <img class="equipment-img"  alt="Cutting-Edge Equipment" loading="lazy" src="/spark/assets/gym-CdII6TNz.png"
-          srcset="/spark/assets/gym-CdII6TNz.png, /spark/assets/gym@2x-Dp3-caOi.png"/>                 
+          srcset="/spark/assets/gym-CdII6TNz.png 1x, /spark/assets/gym@2x-Dp3-caOi.png 2x" />                 
           <ul class="equipment-list">
             <li class="equipment-item">
               <img class="img-disk" src="/spark/assets/ellipse-h9h4M1uk.png" alt="Ellipse" loading="lazy"/>
@@ -149,7 +214,7 @@
       </div>
       </section>
 <!-- The Champion’s Edge -->
- <section class="champion-section">
+ <section class="champion-section" id="Champion">
   <div class="container champion-conteiner">
     <h2 class="champion-title">The Champion’s Edge</h2>
     <div class="round-container">
@@ -168,12 +233,12 @@
   </div>
  </section>
  <!-- Fuel for Performance -->
-  <section class="fuel-section">
+  <section class="fuel-section" id="Fuel">
     <div class="container">
       <h2 class="fuel-title">Fuel for Performance</h2>
       <div class="fuel-equipment-container">
       <img class="equipment-img"  alt="Healthy Food" loading="lazy" src="/spark/assets/healthy-food-YHSOPope.png"
-      srcset="/spark/assets/healthy-food-YHSOPope.png, /spark/assets/healthy-food@2x-Dhu-FPB3.png"/> 
+      srcset="/spark/assets/healthy-food-YHSOPope.png 1x, /spark/assets/healthy-food@2x-Dhu-FPB3.png 2x"/> 
       <div>
       <p class="fuel-text">Your body is your engine. We provide the premium fuel it needs.</p>
       <div class="pictures-container">
@@ -206,18 +271,86 @@
       </div>
     </div>
   </section>
+  <!-- Recovery & Longevity -->
+   <section class="recovery-section" id="Recovery">
+    <div class="container">
+      <h2 class="recovery-title">Recovery & Longevity</h2>
+      <p class="recovery-text">Peak performance requires proper restoration.</p>
+      <div class="recovery-picture-container">
+        <div>
+        <figure class="recovery-picture">
+          <img class="recovery-img"  alt="Cryo" loading="lazy" src="/spark/assets/cryo-CGEZglwf.png"
+          srcset="/spark/assets/cryo-CGEZglwf.png 1x, /spark/assets/cryo@2x-Bgw77jOm.png 2x"/>  
+          <figcaption class="recovery-caption">Cryo & Infrared Therapy </figcaption>              
+        </figure>
+        <p style="font-family: 'Tomorrow', sans-serif; font-weight: 300; font-size: 22px; color: #f1f1f1; width: 343px;">Accelerate muscle repair and reduce inflammation.</p> 
+      </div>
+      <div>
+        <figure class="recovery-picture">
+          <img class="recovery-img"  alt="Mobility" loading="lazy" src="/spark/assets/mobility-_JYlpKYU.png"
+          srcset="/spark/assets/mobility-_JYlpKYU.png 1x, /spark/assets/mobility@2x-DWj71Je7.png 2x"/>  
+          <figcaption class="recovery-caption">Mobility & Stretching Workshops</figcaption>              
+        </figure>
+        <p style="font-family: 'Tomorrow', sans-serif; font-weight: 300; font-size: 22px; color: #f1f1f1; width: 343px;">Increase flexibility and enhance movement efficiency.</p>
+       </div>
+       <div>
+        <figure class="recovery-picture">
+          <img class="recovery-img"  alt="Massage" loading="lazy" src="/spark/assets/massage-Bnpv2iRD.png"
+          srcset="/spark/assets/massage-Bnpv2iRD.png 1x, /spark/assets/massage@2x-Ca3PYiOf.png 2x"/>  
+          <figcaption class="recovery-caption">Sports Massage & Myofascial Release </figcaption>              
+        </figure>
+        <p style="font-family: 'Tomorrow', sans-serif; font-weight: 300; font-size: 22px; color: #f1f1f1; width: 343px;">Relieve tension, improve mobility, and prevent injuries.</p> 
+      </div>
+      </div>
+    </div>
+   </section>
+   <!-- Real Athlete Stories -->
+    <section class="stories-section" id="Stories">
+      <div class="container">
+        <h2 class="stories-title">Real Athlete Stories</h2>
+        <div class="stories-container">
+          <div class="stories-container-item">
+            <img class="stories-img" src="data:image/png;base64,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" alt="Quotes"/>
+            <p class="stories-text">"Training here gave me the endurance to outlast my opponents. Best decision I ever made!"</p>
+            <p class="stories-author">Mehmet A.</p>
+          </div>
+            <div class="stories-container-item">
+              <img class="stories-img" src="data:image/png;base64,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" alt="Quotes"/>
+              <p class="stories-text">"The power training completely changed my game. I feel stronger, faster, and sharper!"</p>
+              <p class="stories-author">Derya K.</p>
+            </div>
+              <div class="stories-container-item">
+                <img class="stories-img" src="data:image/png;base64,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" alt="Quotes"/>
+                <p class="stories-text">"The mental coaching was a game-changer. Now, I walk into every competition feeling unstoppable."</p>
+                <p class="stories-author">Hakan S.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Join the Movement -->
+     <section class="movement-section" id="Join">
+      <div class="container">
+        <h2 class="movement-title">Join the Movement</h2>
+        <p class="movement-text">Ready to take your performance to the next level?<br/> 
+          This is where champions are built.</p>
+          <p class="contact-information">Contact us at:
+            <a class="link-mail" href="mailto:info@sparkpowerplay.com">info@sparkpowerplay.com</a>
+          </p>
+      </div>
+     </section>
 
   </main>
 
-  <footer class="footer ">
-  <div class="container">
-    <div class="footer-container">
-      <ul class="footer-navigation">
+  <footer class="footer">
+  <div class="container footer-container">
+          <ul class="footer-navigation">
         <li class="footer-link">
           <a href="Privacy%20Policy.html">Privacy Policy</a>
         </li>
         <li class="footer-link">
-          <a href="Terms & Conditions.html">Terms and Conditions</a>
+          <a href="Terms & Conditions.html">Terms & Conditions</a>
         </li>
         <li class="footer-link">
           <a href="Cookies Policy.html">Cookies Policy</a>
@@ -225,9 +358,9 @@
       </ul>
 
       <p class="footer-text">
-        2025 bestsitestay.com – All rights reserved
+        © 2025 sparkpowerplay.com, All rights reserved.
       </p>
-    </div>
+    
   </div>
 </footer>
 
