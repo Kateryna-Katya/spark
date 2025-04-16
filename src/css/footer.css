@@ -1,7 +1,7 @@
 .footer{
   background-image:url("/img/lines-mob.png");
   background-repeat: no-repeat;
-  background-position: top 0px center;
+  background-position: top 20px center;
   background-size: 100%;  
 }
 .footer-container{
@@ -31,7 +31,7 @@ text-align:center;
   .footer{
     background-image:url("/img/lines-desk.png");
     background-repeat: no-repeat;
-    background-position: top 20px center;
+    background-position: top 30px center;
     background-size: 100%;  
   }
   .footer-container{
