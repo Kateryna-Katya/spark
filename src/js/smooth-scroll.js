@@ -18,12 +18,6 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 });
-// hover
-const menuItems = document.querySelectorAll('.menu-list-item');
 
-menuItems.forEach(item => {
-  item.addEventListener('click', () => {
-    menuItems.forEach(i => i.classList.remove('active'));
-    item.classList.add('active');
-  });
-});
+
+
