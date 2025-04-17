@@ -1,0 +1,78 @@
+@import url('./reset.css');
+@import url('./base.css');
+@import url('./container.css');
+@import url('./footer.css');
+
+.background{
+    background:#f1f1f1;  
+     background-image:url("/img/traning/line-mob.png");
+    background-repeat: no-repeat;
+    background-position: top 150px right;
+    background-size: 359px; 
+} .back-btn{
+    display:flex;
+    gap:12px;
+    align-items:center;
+    margin-bottom:34px;
+}
+.cookies-container{
+    font-family: "Tomorrow", sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+color: #010101;
+}
+.cookies-title{
+    font-weight: 500;
+font-size: 32px;
+margin-bottom:40px;
+color: #010101;
+}
+.cookies-text{
+    margin-bottom:16px;   
+}
+.cookies-subtitle{
+    font-weight: 500;
+    font-size: 32px;
+    margin-bottom:20px;
+}
+.condition-title{
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom:16px; 
+    line-height: 1.08333;
+}
+.cookies-list{
+    list-style-type:disc;
+    margin-bottom:16px; 
+    padding-left:20px;
+}
+.link-underline{
+    text-decoration:underline;
+}
+.break-url {
+    word-break: break-all;
+  }
+.date{
+    display:block;
+}
+
+@media screen and (min-width: 1439px) {
+    .background{
+      background-color: #f1f1f1;
+      background-image:url("/img/traning/line-desk.png");
+      background-repeat: no-repeat;
+      background-position: top 130px right;
+      background-size: 708px;
+        
+    }
+    .cookies-container{
+        padding:56px 186px 40px;
+    }
+    .cookies-list-without-margin{
+        margin-bottom:0;
+    }
+    .date{
+        display:inline;
+    }
+}
